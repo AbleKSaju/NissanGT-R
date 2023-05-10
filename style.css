@@ -18,7 +18,7 @@
 }
 .arrow{
     width: 10px;
-    background: rgb(195,1,47);
+    background: rgb(243, 40, 40);
     color: #fff;
     position: absolute;
     width: 44px;
@@ -58,6 +58,8 @@
 }
 .menu-box:hover{
     background: rgb(195,1,47);
+    cursor: pointer;
+    transition: 0.4s;
 }
 .butt{
     font-size: 18px;  
@@ -69,7 +71,7 @@
 }
 
 .red{
-    background: rgb(195,1,47);
+    background: rgb(243, 40, 40);
     padding: 17px;
     width: 216px;
     border-radius: 25px;
@@ -143,6 +145,9 @@
     border: none; 
     font-weight: bold;
     color: #fff;
+}
+.car4:hover{
+    background: rgb(195,1,47);
 }
 .car5{
     margin-left: 85%;
