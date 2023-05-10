@@ -1,0 +1,578 @@
+.container{
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header-left{
+    width: 715px;
+    height:146px;
+}
+.header-right{
+    width: 724px;
+    height: 146px;
+}
+.butt{
+    cursor: pointer;
+}
+.arrow{
+    width: 10px;
+    background: rgb(195,1,47);
+    color: #fff;
+    position: absolute;
+    width: 44px;
+    bottom: 2px;
+    
+}
+.overview{
+    height: 55px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    
+}
+.gtr:hover,.gtr2:hover{
+    color: rgb(163, 154, 154);
+}
+.gtr,.gtr1{
+    cursor: pointer;
+}
+.gtr1{
+    color: #fff;
+    margin-left: 120px;
+    margin-right: 120px;
+    white-space: nowrap;
+}
+.gtr{
+    color: #fff;
+    padding-right: 45px;
+    font-size: 16px;
+    
+}
+.gtr2{
+    color: #fff;
+    padding-right: 400px;
+    font-size: 16px;
+    
+}
+.menu-box:hover{
+    background: rgb(195,1,47);
+}
+.butt{
+    font-size: 18px;  
+    margin-top: 50px;
+    border: none;
+    margin-left: x;
+    height: 35px;
+    background: #fff;
+}
+
+.red{
+    background: rgb(195,1,47);
+    padding: 17px;
+    width: 216px;
+    border-radius: 25px;
+    position: relative;
+    padding-bottom: 36px;
+    font-size: 19px;  
+    margin-top: 50px;
+    border: none;
+    margin-left: x;
+    height: 35px;
+}
+.logo{
+     width: 200px;
+}
+.logo1{
+    margin-left: -49px;
+    width: 10px;
+    background: rgb(0, 0, 0);
+}
+
+.build-red{
+    height: 55px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color:rgb(243, 40, 40);
+    align-items: center;
+    font-size: 16px;
+}
+.build-red:hover{
+    background:  rgb(195,1,47);
+
+}
+.car-size{
+    background-image:url(https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2023/overview/pfa/2023-nissan-gtr-solid-red-driving-on-track.jpg) ;
+   height: 624px ;
+   width: 100%;
+   margin-top: -60px;
+}
+.pic{
+    position: relative;
+    width: 1425px;
+    height: 550px;
+}
+.car{
+    margin-top: 109px;
+    margin-left: 165px;
+    position: absolute;
+}
+.car2{
+    padding-top: 130px;
+    margin-left: 150px;
+    margin-bottom: 0;
+    font-size: 60px;
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.car3{
+    margin-left: 160px;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.car4{
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 195px;
+    height: 52px;
+    background: rgb(243, 40, 40);  
+    border: none; 
+    font-weight: bold;
+    color: #fff;
+}
+.car5{
+    margin-left: 85%;
+    margin-top: 50px;
+}
+.facilities{
+    width: 100%;
+    height: 140px;
+    background: rgb(242, 238, 238);
+    margin-top: -90px;
+    display: flex;
+}
+.faci1{
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: large;
+}
+.faci2{
+    margin-left: -130px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.faci3{
+    margin-left: -100px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.faci4{
+    margin-top: 60px;
+    font-weight: 200;
+    font-size: 18px;
+}
+.faci41{
+    margin-left: -60px;
+    margin-top: 84px;
+}
+.faci5 {
+    margin-left: 120px;
+    margin-top: 1px;
+    font-weight: 500;
+    font-size: 36px;
+}
+.boxx{
+    border: none;
+}
+.faci51{
+    margin-top: -10px;
+    margin-left: 120px;
+}
+.faci6{
+    margin-top: -70px;
+    margin-left: 190px;
+    font-weight: 200;
+    font-size: 18px;
+}
+.menu{
+    height: 130px;
+    width: 90%;
+    margin-left: 143px;
+    display: flex; 
+    padding-bottom: 150px;
+}
+.menu-box{
+    margin: 8px;
+    margin-top: 55px;
+    width: 218px;
+    height: 105px;
+    border: solid;
+    
+}
+.imge{
+    margin-left: 86px;
+   margin-top: 20px;
+    width: 40px;
+}
+.imgr{
+    margin-left: 86px;
+    margin-top: 20px;
+     width: 58px;
+     height: 39px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+.pictures{
+    margin-left: 143px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 570px;
+    height: 580px;   
+    background: rgb(242, 238, 238);
+}
+.picture{
+    margin-right: 30px;
+    width: 570px;
+    height: 580px;  
+    background: rgb(242, 238, 238);
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 40px;
+    padding-left:40px;
+    padding-top: 10px;
+}
+.text2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    padding-left:40px;
+    padding-top: 10px;
+}
+.inputs{
+    margin-left:40px;
+    width: 220px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.menu1{
+    height: 130px;
+    width: 90%;
+    margin-left: 135px;
+    display: flex; 
+    padding-bottom: 150px;
+}
+.menu-box1{
+    margin-right: 30px;  
+    width: 270px;
+    height: 160px;
+    border: solid;
+    
+}
+.imge1{
+   margin-left: 86px;
+   margin-top: 20px;
+   width: 40px;
+}.car-picture{
+    width: 1440px;
+    height: 1261px;
+    background: rgb(242, 238, 238);
+}
+.testt{
+    padding-top: 45px;
+    padding-left: 140px;
+    padding-bottom: 77px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.car-pic{
+    width: 1170px;
+    height: 420px;
+    margin-left: 140px;
+
+}
+.buttn2:hover{
+    cursor: pointer;
+    background: rgb(213, 209, 209);
+}
+
+.solid{
+    margin-top: 0;
+}
+.car-color{
+    width: 1170px;
+    margin-left: 140px;
+    height: 86px;
+    padding-top: -20px;
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.colours{
+    width: 265px;
+    height: 69px;
+}
+.color-car{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+.pp{
+    margin-top: 30px;
+    font-size: 17px;
+    color: #7e7777;
+
+}
+.colr{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.menu2{
+    height: 150px;
+    width: 1170px;
+    display: flex; 
+    padding-bottom: 100px;
+    margin-top: 100px;
+
+}
+.menu-box2{
+    margin-right: 25px;
+    
+    width: 270px;
+    height: 160px;
+    border: solid;
+    
+}
+.box{
+    background: #000;
+    width: 310px;
+    padding-bottom: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.page{
+    margin-top: 40px;
+    padding-left: 120px;
+    height: 60px;  
+    margin-bottom: 0;
+}
+.page1{
+    font-size: 25px;
+   margin-bottom: 10px;
+}
+.page2{
+    font-size: 40px;
+    margin-top: 0;
+}
+.pages{
+    width: 1170px;
+    height: 1500px;
+    margin-left: 140px;
+}
+.hrr{
+    height: 2px;
+    background: #000;
+    margin-left: 143px;
+    width: 1170px;
+}
+.page-pic{
+    height: 470px;
+    margin-top: 55px;
+    background: rgb(242, 238, 238);
+}
+.tesst{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    font-size: 40px;
+    font-weight: 100;
+}
+.image-rot{
+    float: right;   
+}
+.tesst2{
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+.texxt{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.test1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.test2{
+    margin-top: o;
+    color: #564f4f;
+}
+.main-box{
+    height: 524px;
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 260px;
+    display: flex;
+}
+.box1{
+    margin-right: 40px;
+    height: 100%;
+    width:268px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px #6b6767 solid;
+}
+.box2{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px #6b6767  solid;
+    height: 100%;
+    width:268px ;
+}
+.box11{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.info{
+    float: right;
+    padding: 17px;
+}
+.box12{
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 0;
+}
+.box-img{
+    width: 280px ;
+    height: 158px;
+}
+.car-menu{
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+.menus{
+    display: flex;
+}
+.menuss{
+    margin-bottom: 0;
+}
+.unorder{
+    padding-left: 14px;
+}
+.buttn{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 50px;
+    color: #fff;
+   background: rgb(243, 40, 40);
+   margin-bottom: 10px;
+   border: none;
+}
+.buttn2{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+   background:  rgb(242, 238, 238);
+   color: #000;
+}
+.check{
+    margin-left: 80px;
+}
+.home{
+    margin-top: 40px;
+    width: 1170px;
+    height: 60px;
+    margin-left: 143px;
+}
+.home-size{
+    font-size: 46px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.footer{
+    width: 90%;
+    height: 600px;
+    background: #272525;
+    margin-top: -50px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.footer-top{
+    padding-top: 10px;
+    color: #beb8b8;
+}
+.footer-top1{
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 29px;
+    margin-right: 880px;
+}
+.footer1{
+    width: 100%;
+    display: flex;
+    float: left;
+    padding-bottom: 20px;
+}
+.footer-colm1{ 
+    width: 324px; 
+}
+.footer-full{
+    display: flex;
+    float: left;
+}
+.footer-full p{
+    margin-top: 25px;
+    color: #beb8b8;
+    font-family: monospace;
+    font-size: larger;
+}
+.footer h4{
+    padding-bottom: 17px;
+    color: #fff;
+}
+.footer-colm2{
+    width: 324px;
+}
+.footer-right{
+    padding-top: 10px;
+    padding-right: 50px;
+    color: #ffffff;  
+    font-size: 16px;
+}
+.footer-full p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
